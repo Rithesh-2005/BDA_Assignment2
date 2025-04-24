@@ -2,9 +2,9 @@
 Big Data Analysis course work  - Assignment2
 
 This repository consists of three parts:
-1. Digit Classification with PySpark Random Forest
-   This project showcases multi-class classification of handwritten digit images using the Random Forest classifier from PySpark MLlib, trained on the popular digits dataset from Scikit-learn.
-   What It Does?
+1. Digit Classification with PySpark Random Forest:
+This project showcases multi-class classification of handwritten digit images using the Random Forest classifier from PySpark MLlib, trained on the popular digits dataset from Scikit-learn.
+What It Does?
      1. Loads the digits dataset using sklearn.datasets.load_digits
      2. Converts the data into a PySpark DataFrame
      3. Assembles pixel values into feature vectors using VectorAssembler
@@ -12,9 +12,9 @@ This repository consists of three parts:
      5. Trains a Random Forest model with 100 trees
      6. Evaluates the model using accuracy metric
      7. Optionally plots the confusion matrix for performance insight
-2. KMeans Clustering on Synthetic Blob Data using PySpark
-  This project demonstrates how to apply KMeans clustering on synthetically generated data using PySpark. It showcases the integration of Spark MLlib with Pandas, Scikit-learn, and Seaborn for end-to-end clustering and visualization.
-  What It Does?
+2. KMeans Clustering on Synthetic Blob Data using PySpark:
+This project demonstrates how to apply KMeans clustering on synthetically generated data using PySpark. It showcases the integration of Spark MLlib with Pandas, Scikit-learn, and Seaborn for end-to-end clustering and visualization.
+What It Does?
     1. Generates synthetic 2D data using make_blobs() from sklearn.datasets.
     2. Converts the dataset into a PySpark DataFrame.
     3. Prepares feature vectors using VectorAssembler.
